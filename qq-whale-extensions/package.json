@@ -1,0 +1,8 @@
+{
+  "name": "qq-whale-extensions",
+  "version": "1.0.2",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test test/*.test.mjs" },
+  "engines": { "node": ">=20" }
+}

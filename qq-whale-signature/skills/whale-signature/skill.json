@@ -1,0 +1,16 @@
+{
+  "id": "whale-signature",
+  "name": "小鲸鱼 · 个性签名",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "category": "message",
+  "description": "读取并修改机器人自己的QQ个性签名，允许自主修改，持久限频与修改后核验。",
+  "enabledByDefault": true,
+  "settings": { "signatureMode": "autonomous", "ownerQQ": "", "dailyChangeLimit": 2, "changeIntervalMinutes": 720 },
+  "configSchema": {
+    "signatureMode": { "type": "enum", "label": "签名修改方式", "options": [{ "value": "autonomous", "label": "允许自主修改" }, { "value": "requested", "label": "创建者要求时修改" }, { "value": "off", "label": "关闭修改" }] },
+    "ownerQQ": { "type": "string", "label": "创建者QQ", "description": "请求模式须填写实际创建者QQ，以真实发送者鉴权；未配置时拒绝请求，昵称与自称无效。" },
+    "dailyChangeLimit": { "type": "number", "label": "每天最多修改次数", "min": 1, "max": 10, "step": 1, "description": "北京时间计数；结果未知的尝试也占次数。" },
+    "changeIntervalMinutes": { "type": "number", "label": "修改至少间隔（分钟）", "min": 10, "max": 10080, "step": 10, "description": "默认720分钟（12小时），重启后仍有效。" }
+  }
+}

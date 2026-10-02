@@ -1,0 +1,29 @@
+# 本地构建输出与下载缓存
+/dist/
+/build/
+/.build/
+**/bin/
+**/node_modules/
+
+# 登录信息、配置及运行状态
+.env
+.env.*
+*.rdp
+**/data/
+**/isolated-data/
+**/config.json
+**/cookies.txt
+**/cookie.txt
+*.log
+
+# 本地诊断与抓取样本
+actual-*
+**/*-diagnostic-*/
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.webm
+*.exe
+*.zip
+*.tmp

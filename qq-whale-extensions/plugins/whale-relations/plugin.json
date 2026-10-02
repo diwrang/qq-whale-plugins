@@ -1,0 +1,16 @@
+{
+  "id": "whale-relations",
+  "name": "小鲸鱼 · 隐藏关系与性格",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "category": "message",
+  "description": "恢复旧版隐藏好感度、缓慢熟悉度增长和傲娇语气校准；兼容原 affection.json。",
+  "enabledByDefault": true,
+  "capabilities": ["whale.relationship"],
+  "settings": { "ownerQQ": "", "toneCalibration": true, "maxPromptMembers": 20 },
+  "configSchema": {
+    "ownerQQ": { "type": "string", "label": "创建者 QQ 号", "description": "请填写自己的创建者 QQ 号；留空或无效时本插件与依赖动作不会启用。仅按真实 QQ 号识别，名字或自称不会获得保护。" },
+    "toneCalibration": { "type": "boolean", "label": "启用傲娇语气校准", "description": "聪明可靠、嘴硬心软；关系越高越亲近，关系越低越疏远。" },
+    "maxPromptMembers": { "type": "number", "label": "本轮最多注入关系人数", "min": 1, "max": 50, "step": 1 }
+  }
+}

@@ -1,0 +1,363 @@
+{
+  "schemaVersion": 1,
+  "snapshotDate": "2026-10-02",
+  "variant": "public-sanitized",
+  "compatibility": {
+    "qqAgent": "0.4.0",
+    "extensionApi": 1,
+    "node": ">=20"
+  },
+  "packages": {
+    "qq-whale-video-frames": "1.0.0",
+    "qq-whale-extensions": "1.0.2",
+    "qq-whale-signature": "1.0.0",
+    "qq-whale-social": "1.1.1"
+  },
+  "ffmpeg": {
+    "version": "9.0.2",
+    "archiveUrl": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-9.0.2-essentials_build.zip",
+    "sha256": "60f467265b1e312373dbcd92200c2618a74850f98d3d078e94296bb3fa2047ba"
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 105,
+      "sha256": "98d52148809f6ef7976b4d38a2399995fbb140cc25004ee17628918ccc978ff2"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 329,
+      "sha256": "1cb60517960e81a8467edcd3abfc4b6b34e254b68e7c4e4b845e4fb361b7b70f"
+    },
+    {
+      "path": "PUBLIC-BACKUP.md",
+      "bytes": 1848,
+      "sha256": "43ffa4db1e51b75e9e8c228f69bc42e752c873b48cf036c9929becb58d0848ec"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5128,
+      "sha256": "a7b48d5fb57c78a08241a59a778e40a371423c8a79bfdd81138eb9b6447cb792"
+    },
+    {
+      "path": "qq-whale-extensions/README.md",
+      "bytes": 8556,
+      "sha256": "cbd48abd939f35215653f0cc9acd46ee03fd1311938ad4754585b89ef823fdf5"
+    },
+    {
+      "path": "qq-whale-extensions/VALIDATION.md",
+      "bytes": 2851,
+      "sha256": "63de3ccc3295277f729a91a7d8dea0010bb82e0fa62891ead10bbcb8d56aa7ae"
+    },
+    {
+      "path": "qq-whale-extensions/install-server.bat",
+      "bytes": 363,
+      "sha256": "f1296e7ba19556bd43ab8dc0c7bc6cbe721e963128770d85afb711750615c6b4"
+    },
+    {
+      "path": "qq-whale-extensions/install.bat",
+      "bytes": 225,
+      "sha256": "b94887e82beb2177a104cc49c08805af17d3a4701eee552edaa747a3f22710c1"
+    },
+    {
+      "path": "qq-whale-extensions/install.ps1",
+      "bytes": 4274,
+      "sha256": "bd2f3c49ecbdcf42bb41df02fcda99212c7f255a1bd157c371b43a6ed5a1403c"
+    },
+    {
+      "path": "qq-whale-extensions/package.json",
+      "bytes": 186,
+      "sha256": "11e7bc691c866540b87f76761d412474960fd915be46df0ff1659d98d2f3c2a4"
+    },
+    {
+      "path": "qq-whale-extensions/plugins/whale-owner-controls/bridge.js",
+      "bytes": 9205,
+      "sha256": "13fa9ede058cee24d15dd9c3a23fa98a865df1b9d5727477c243db40404cd18b"
+    },
+    {
+      "path": "qq-whale-extensions/plugins/whale-owner-controls/index.js",
+      "bytes": 2610,
+      "sha256": "389b4c304b69668e2b19e5e714577aa5a395ca720811069c12b6122dab2f0065"
+    },
+    {
+      "path": "qq-whale-extensions/plugins/whale-owner-controls/plugin.json",
+      "bytes": 586,
+      "sha256": "db5377f234fdabb867bb8e4cf70f16f9edd5c4cabd6417b5c5d3ad0224d71d8b"
+    },
+    {
+      "path": "qq-whale-extensions/plugins/whale-relations/index.js",
+      "bytes": 5075,
+      "sha256": "370372ff6a95898c9df4b6693494c1ef215e50aa2ff649971378628fa3356369"
+    },
+    {
+      "path": "qq-whale-extensions/plugins/whale-relations/plugin.json",
+      "bytes": 987,
+      "sha256": "624f7297d78e997a36e5681b02b07f44128a7677d72e483e5e6c68b97d56be09"
+    },
+    {
+      "path": "qq-whale-extensions/plugins/whale-relations/state.js",
+      "bytes": 9633,
+      "sha256": "bf659860ad704a3dc9dacd2a2e1ef19fe1424eca063ace73e756acccb7c83b41"
+    },
+    {
+      "path": "qq-whale-extensions/skills/whale-actions/index.js",
+      "bytes": 8337,
+      "sha256": "c26ffdb05aa9a597ff1ec0a2cc8399848338e1668abaa28c383d12b4eb6d347c"
+    },
+    {
+      "path": "qq-whale-extensions/skills/whale-actions/skill.json",
+      "bytes": 1671,
+      "sha256": "9eb562c9726dec4a2c151fe20b09682430124d48261f231a52652595a1e0a239"
+    },
+    {
+      "path": "qq-whale-extensions/test/extensions.test.mjs",
+      "bytes": 23827,
+      "sha256": "a05019c35f95c667680c8e51fbf5383d5e22f86ecccead0e0dde3ae63e50a937"
+    },
+    {
+      "path": "qq-whale-signature/README.md",
+      "bytes": 4937,
+      "sha256": "3f254903315e394d437180780b31e2c7b8d37dd5e715b42c1d176933dc7b9b3b"
+    },
+    {
+      "path": "qq-whale-signature/VALIDATION.md",
+      "bytes": 1711,
+      "sha256": "8a4aaea7dc6d0e55ede209655c282ca44eee9e221969f19f6a3527a3a2bb1458"
+    },
+    {
+      "path": "qq-whale-signature/install-server.bat",
+      "bytes": 363,
+      "sha256": "f1296e7ba19556bd43ab8dc0c7bc6cbe721e963128770d85afb711750615c6b4"
+    },
+    {
+      "path": "qq-whale-signature/install.bat",
+      "bytes": 225,
+      "sha256": "b94887e82beb2177a104cc49c08805af17d3a4701eee552edaa747a3f22710c1"
+    },
+    {
+      "path": "qq-whale-signature/install.ps1",
+      "bytes": 7313,
+      "sha256": "147b3a2e02d5628ec75928db0821f17992f3edd1e0b7b4a6e5c6df5cd121a897"
+    },
+    {
+      "path": "qq-whale-signature/package.json",
+      "bytes": 242,
+      "sha256": "8899a4ce05a79bd015991635c8efb63ede6e35894827119d8052c2b9e6db8b31"
+    },
+    {
+      "path": "qq-whale-signature/skills/whale-signature/index.js",
+      "bytes": 5343,
+      "sha256": "ed9651813322257d62a5f69f38774014213340c5acef393bf69d3e8021ffe5ab"
+    },
+    {
+      "path": "qq-whale-signature/skills/whale-signature/signature.js",
+      "bytes": 4346,
+      "sha256": "e7e5a209b71c1aa7a9f4cda8eff28a4360a728fee079588026b8d38f72ae4249"
+    },
+    {
+      "path": "qq-whale-signature/skills/whale-signature/skill.json",
+      "bytes": 1273,
+      "sha256": "c00f0cb613e4f28cdcb353072f4069be4b223a85982398de63cf4597ddb2d593"
+    },
+    {
+      "path": "qq-whale-signature/skills/whale-signature/state.js",
+      "bytes": 5359,
+      "sha256": "004e88854e7526b7c54c42c86a3aa765be071e261f84b7121b5803119a5ede91"
+    },
+    {
+      "path": "qq-whale-signature/test/installer.test.mjs",
+      "bytes": 8007,
+      "sha256": "822afc315c382e1447a3ef0b4c79f8b3b44a0f4aa828790060b294a4bd9d8c5b"
+    },
+    {
+      "path": "qq-whale-signature/test/integration.test.mjs",
+      "bytes": 6404,
+      "sha256": "9ef12408fd38039135376a60999d682b1d03a8583e97129951be6a0fe8e3e8cd"
+    },
+    {
+      "path": "qq-whale-signature/test/signature.test.mjs",
+      "bytes": 4305,
+      "sha256": "2f7cb0ac472ccba2edbc25f8e114d348c83a6852401dfbec54aaaf8af14005b3"
+    },
+    {
+      "path": "qq-whale-signature/test/state.test.mjs",
+      "bytes": 3975,
+      "sha256": "a4c6c940ffdee8d0133b65234c2e9e24814ed7a9023369d88034ef264b4c51fd"
+    },
+    {
+      "path": "qq-whale-social/README.md",
+      "bytes": 11569,
+      "sha256": "6459247b3162f2d799df424d38dcc9e35f282e000fe45608b80296e2e37dba72"
+    },
+    {
+      "path": "qq-whale-social/VALIDATION.md",
+      "bytes": 4470,
+      "sha256": "5103d2bbda5a0ffd61ccc60bd03fa10be5f9a553e2ee6f7c02d8afa414c2c3e3"
+    },
+    {
+      "path": "qq-whale-social/install-server.bat",
+      "bytes": 363,
+      "sha256": "f1296e7ba19556bd43ab8dc0c7bc6cbe721e963128770d85afb711750615c6b4"
+    },
+    {
+      "path": "qq-whale-social/install.bat",
+      "bytes": 225,
+      "sha256": "b94887e82beb2177a104cc49c08805af17d3a4701eee552edaa747a3f22710c1"
+    },
+    {
+      "path": "qq-whale-social/install.ps1",
+      "bytes": 7289,
+      "sha256": "56e85dfc5dbd7a26f2724460bcdad8437340951627e29a68f772c58aa0ea7cc6"
+    },
+    {
+      "path": "qq-whale-social/package.json",
+      "bytes": 249,
+      "sha256": "43c0728fae835daff6d3284affac612c242addf15370a4b2a772b45f6edf37c2"
+    },
+    {
+      "path": "qq-whale-social/skills/whale-social/bili.js",
+      "bytes": 17091,
+      "sha256": "5a79fc081a9845f6223d867607d340b8a54106b2a41cd245427f0066e4b29e8f"
+    },
+    {
+      "path": "qq-whale-social/skills/whale-social/comments.js",
+      "bytes": 18654,
+      "sha256": "1a6d1cebb249f73c88de82cf372b5a81f56bce7dee2ce7dcf72c59d079a5efe4"
+    },
+    {
+      "path": "qq-whale-social/skills/whale-social/index.js",
+      "bytes": 13981,
+      "sha256": "a9e8834fd0b7bc09e2e16d8e390e0dc87f0e2c72812b824e61633770ced32e89"
+    },
+    {
+      "path": "qq-whale-social/skills/whale-social/policy.js",
+      "bytes": 5400,
+      "sha256": "0655154513a9ba1231ceb89ed2f6aec004a0b57de088f5c20cf98c6abb4914d2"
+    },
+    {
+      "path": "qq-whale-social/skills/whale-social/qzone.js",
+      "bytes": 16066,
+      "sha256": "954d7d1bb6409f9141efda86b8fa388a87b99164ad9d76ffd397b4814006bd43"
+    },
+    {
+      "path": "qq-whale-social/skills/whale-social/reply-state.js",
+      "bytes": 5376,
+      "sha256": "fb2a387cb959228da3ff3a5f1ed3a19386a7a5bafde23645555cb22b284459f9"
+    },
+    {
+      "path": "qq-whale-social/skills/whale-social/skill.json",
+      "bytes": 3695,
+      "sha256": "eef6d36774132e23917623c2dc5b68ee858b6305491781e3c261df278a54eb77"
+    },
+    {
+      "path": "qq-whale-social/skills/whale-social/watch.js",
+      "bytes": 5008,
+      "sha256": "31896021d9f256bf68e5e581a3bed6d6a96713a79a7c3f7f5df2fff2cc3019af"
+    },
+    {
+      "path": "qq-whale-social/test/bili.test.mjs",
+      "bytes": 11977,
+      "sha256": "bcb96671894485a75c488a410be97f022ed16109189e3640aa01e455a0f7e0b2"
+    },
+    {
+      "path": "qq-whale-social/test/comments.test.mjs",
+      "bytes": 14032,
+      "sha256": "6c3c5af186ee06ed8c34a4f21d895b0ac929d9f65484f7dff12de3ff680a5113"
+    },
+    {
+      "path": "qq-whale-social/test/installer.test.mjs",
+      "bytes": 7709,
+      "sha256": "8d7d1df5f84b17faf7c7140c4295e4389b7947c33f6a0219479f34370f943689"
+    },
+    {
+      "path": "qq-whale-social/test/integration.test.mjs",
+      "bytes": 11856,
+      "sha256": "d5f5ea1d16336705f3b225b7f13513f95b85298e97e1826739cb049ea4c809ed"
+    },
+    {
+      "path": "qq-whale-social/test/policy.test.mjs",
+      "bytes": 4017,
+      "sha256": "7f3f342c53036e29f5ea8e904adf688c76875d3b71193620d7871639ff550c32"
+    },
+    {
+      "path": "qq-whale-social/test/qzone.test.mjs",
+      "bytes": 10863,
+      "sha256": "7c421576af72c982c2e660709653c83f59ea4f173f8564e215189e8c23975d84"
+    },
+    {
+      "path": "qq-whale-social/test/reply-state.test.mjs",
+      "bytes": 3573,
+      "sha256": "113c3c8c54faeb622bf74e173c7c77059575b428744964ab28c44293eec10b14"
+    },
+    {
+      "path": "qq-whale-social/test/watch.test.mjs",
+      "bytes": 4027,
+      "sha256": "464ddb1bd89b5580cd81194708511ca90d1505cb381f3cf7c29e7ad206f4008e"
+    },
+    {
+      "path": "qq-whale-video-frames/README.md",
+      "bytes": 1713,
+      "sha256": "cb014bbcb075a50d563431f01bb431d7d38f8c3fa75daeea1f085c6a06d41703"
+    },
+    {
+      "path": "qq-whale-video-frames/VALIDATION.md",
+      "bytes": 2637,
+      "sha256": "fafa25477e3aa63e5866d0a8299fb0e708b4a19bb0ed9a66dbc45172e50346bc"
+    },
+    {
+      "path": "qq-whale-video-frames/package.json",
+      "bytes": 188,
+      "sha256": "9582e27bb2075a0ff9a9ddaf33c5f6a2a57b327871a2d94196254b91ec04d97e"
+    },
+    {
+      "path": "qq-whale-video-frames/plugins/whale-video-frames/FFMPEG-BUILD-README.txt",
+      "bytes": 41577,
+      "sha256": "0342de6bb39dd421cbec2c00d89ad274b640d75ad3f2cab09ffd647ce2d8f949"
+    },
+    {
+      "path": "qq-whale-video-frames/plugins/whale-video-frames/FFMPEG-LICENSE.txt",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "path": "qq-whale-video-frames/plugins/whale-video-frames/README.md",
+      "bytes": 1713,
+      "sha256": "cb014bbcb075a50d563431f01bb431d7d38f8c3fa75daeea1f085c6a06d41703"
+    },
+    {
+      "path": "qq-whale-video-frames/plugins/whale-video-frames/frames.js",
+      "bytes": 12354,
+      "sha256": "a627e1fd2a64cf83547a516e164194a152374d3d740327060dde06d3879b7d41"
+    },
+    {
+      "path": "qq-whale-video-frames/plugins/whale-video-frames/index.js",
+      "bytes": 1456,
+      "sha256": "c40f7161d1b054890d51af2da2daf9c8999794055a0e000dd0d9929a804accc4"
+    },
+    {
+      "path": "qq-whale-video-frames/plugins/whale-video-frames/plugin.json",
+      "bytes": 1246,
+      "sha256": "700b0ad9d52a399940fbac069dc862ef1dc3cb0945a8823c6d27ae368763aff1"
+    },
+    {
+      "path": "qq-whale-video-frames/test/frames.test.mjs",
+      "bytes": 8302,
+      "sha256": "1eaa923878bb3c250fd77d31700d089afaf042485e453de757c61bbcc4560f05"
+    },
+    {
+      "path": "scripts/build-packages.ps1",
+      "bytes": 5350,
+      "sha256": "fefedc9486c570786fdd044d8095286e35ad9be42ea2a8724f373e747f1677f6"
+    },
+    {
+      "path": "scripts/restore-ffmpeg.ps1",
+      "bytes": 5525,
+      "sha256": "b08dafef9d24615c520a3d50170a2263ec24970f48963907f64220b0b33c6761"
+    },
+    {
+      "path": "scripts/verify-backup.ps1",
+      "bytes": 976,
+      "sha256": "94586a517e7d151cbe4f320b68f700639ca828e9cb7eb9e6297b16dff854861d"
+    }
+  ]
+}

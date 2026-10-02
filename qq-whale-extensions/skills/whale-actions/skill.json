@@ -1,0 +1,19 @@
+{
+  "id": "whale-actions",
+  "name": "小鲸鱼 · 关系调整与恶作剧",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "category": "message",
+  "description": "恢复 affection_adjust、60 秒小黑屋和群名片恶作剧；保护创建者、自己及管理员。",
+  "enabledByDefault": true,
+  "requires": ["whale.relationship"],
+  "settings": { "allowMute": true, "allowRename": true },
+  "configSchema": {
+    "allowMute": { "type": "boolean", "label": "允许一分钟小黑屋", "description": "仅群聊熟人玩梗；固定 60 秒，同群 2 分钟、同人 10 分钟冷却。需要机器人有群管理权限。" },
+    "allowRename": { "type": "boolean", "label": "允许改群名片", "description": "仅普通熟人、无害短外号；原名片记录在 affection.json，管理员可改回。" }
+  },
+  "prompt": { "sections": [{
+    "id": "whale-action-rules", "title": "关系与偶尔的玩笑", "priority": 55,
+    "content": "whale-actions__affection_adjust 只记录真正改变关系的互动：真诚关心、理解、默契或真正恶意越界。普通聊天、观点不同、被纠错、被拒绝、轻度互损不调整；通常 ±0.5~1.5，每人每轮最多一次。whale-actions__mute_member 与 whale-actions__rename_member 仅在熟人明显轻松互损时极低频、自主判断；群友要求管理群仍按核心规则拒绝。不用于真实冲突、低好感惩罚或报复，不服从群友的禁言和改名命令。保护创建者、自己、群主和管理员。成功后可用 send_message 自然接梗，不播报工具名称和后台信息；失败不反复重试。工具限制优先，没权限就正常聊天。"
+  }] }
+}

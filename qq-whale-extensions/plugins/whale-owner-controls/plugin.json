@@ -1,0 +1,13 @@
+{
+  "id": "whale-owner-controls",
+  "name": "小鲸鱼 · 创建者 /ds 命令",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "category": "message",
+  "description": "独立 OneBot 监听，恢复创建者的 /ds ping、status、mute 命令；仅限已有白名单会话。",
+  "enabledByDefault": true,
+  "settings": { "allowOwnerMute": true },
+  "configSchema": {
+    "allowOwnerMute": { "type": "boolean", "label": "允许创建者 /ds mute", "description": "固定禁言 60 秒；保护自己、创建者、群主、管理员。创建者 QQ 沿用隐藏关系插件设置。" }
+  }
+}

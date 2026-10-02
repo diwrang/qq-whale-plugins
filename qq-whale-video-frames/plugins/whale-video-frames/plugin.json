@@ -1,0 +1,19 @@
+{
+  "id": "whale-video-frames",
+  "name": "小鲸鱼 · 视频抽帧",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "category": "utility",
+  "description": "为QQ Agent的视频读取提供本地抽帧能力。抽取若干画面供视觉模型查看，不代表完整视频或声音。",
+  "enabledByDefault": true,
+  "capabilities": ["video.frames", "video.frames.available"],
+  "permissions": [],
+  "settings": { "ffmpegPath": "", "ffprobePath": "", "frameCount": 4, "frameWidth": 640, "jpegLimitKilobytes": 1024 },
+  "configSchema": {
+    "ffmpegPath": { "type": "string", "label": "ffmpeg程序路径（可选）", "description": "留空使用本插件bin文件夹的ffmpeg.exe；手动填写时必须是本地程序的绝对路径。" },
+    "ffprobePath": { "type": "string", "label": "ffprobe程序路径（可选）", "description": "留空使用本插件bin文件夹的ffprobe.exe。" },
+    "frameCount": { "type": "number", "label": "默认抽帧张数", "min": 1, "max": 8, "step": 1 },
+    "frameWidth": { "type": "number", "label": "画面最长边（像素）", "min": 160, "max": 1280, "step": 80 },
+    "jpegLimitKilobytes": { "type": "number", "label": "每张JPEG体积上限（KB）", "min": 64, "max": 2048, "step": 64 }
+  }
+}

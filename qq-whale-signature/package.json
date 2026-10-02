@@ -1,0 +1,9 @@
+{
+  "name": "qq-whale-signature",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "QQ Agent 小鲸鱼个性签名扩展",
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node --test test/*.test.mjs" }
+}
